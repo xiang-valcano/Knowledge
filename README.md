@@ -10,5 +10,8 @@ Sum of *sine wave* + horizontal displacment of *cosine*
 - [Gerstner Wave Implement, GPU Gem](https://developer.nvidia.com/gpugems/gpugems/part-i-natural-effects/chapter-1-effective-water-simulation-physical-models)  
 - [Normal Correction, Stackexchange](https://math.stackexchange.com/questions/3715732/how-are-gerstner-wave-normals-derived)
 
-# Water Caustic
-- [Box Volume + cull front + ztest always, Ameye](https://ameye.dev/notes/realtime-caustics/)
+# Under Water
+
+- Color Absoption: Beer-Lambert Law
+- Water Caustic: Texture UV -> Reconstuct PosWS from Depth  
+-- [Box Volume + cull front + ztest always, Ameye](https://ameye.dev/notes/realtime-caustics/)
